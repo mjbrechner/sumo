@@ -38,6 +38,17 @@ banzuke = pd.read_csv(
     },
 )
 
+# Calculate BMI
+bmi_list = []
+
+for i in range(len(banzuke)):
+    bmi = round(banzuke.loc[i, "weight"] / ((banzuke.loc[i, "height"] / 100) ** 2), 1)
+    bmi_list.append(bmi)
+bmi_list
+
+banzuke["bmi"] = bmi_list
+# Finished calculating BMI
+
 connection = connect(":memory:")
 sumo.to_sql("sumo", connection)
 banzuke.to_sql("banzuke", connection)
@@ -49,7 +60,7 @@ def sql(a_string):
 
 combined_sql_query = pd.read_sql_query(
     """SELECT sumo.basho AS 'basho', sumo.rikishi1_id AS 'id', sumo.rikishi1_shikona, banzuke.rikishi as 'rikishi', 
-    sumo.rikishi1_rank AS 'rank', banzuke.height AS 'height', banzuke.weight AS 'weight', banzuke.heya AS 'heya',
+    sumo.rikishi1_rank AS 'rank', banzuke.height AS 'height', banzuke.weight AS 'weight', banzuke.bmi AS 'bmi', banzuke.heya AS 'heya',
     banzuke.shusshin AS 'shusshin', sumo.rikishi1_win as 'outcome', sumo.kimarite AS 'kimarite', sumo.rikishi2_id AS 'opponent id',
     sumo.rikishi2_shikona AS 'opponent'
     FROM sumo 
