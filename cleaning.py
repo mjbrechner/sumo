@@ -19,22 +19,22 @@ sumo = pd.read_csv(
         "rikishi2_win": "string",
     },
 )
+"basho", "id", "rank", "rikishi", "heya", "shusshin", "birth_date", "height", "weight", "prev", "prev_w", "prev_l"
 banzuke = pd.read_csv(
     "data/banzuke.csv",
     dtype={
         "basho": "string",
-        "day": "string",
-        "rikishi1_id": "int64",
-        "rikishi1_rank": "string",
-        "rikishi1_shikona": "string",
-        "rikishi1_result": "string",
-        "rikishi1_win": "int64",
-        "kimarite": "string",
-        "rikishi2_id": "int64",
-        "rikishi2_rank": "string",
-        "rikishi2_shikona": "string",
-        "rikishi2_result": "string",
-        "rikishi2_win": "string",
+        "id": "int64",
+        "rank": "string",
+        "rikishi": "int64",
+        "heya": "string",
+        "shusshin": "string",
+        "birth_date": "string",
+        "height": "int64",
+        "weight": "int64",
+        "prev": "string",
+        "prev_w": "string",
+        "prev_l": "string",
     },
 )
 
@@ -65,7 +65,7 @@ combined_sql_query = pd.read_sql_query(
     sumo.rikishi2_shikona AS 'opponent'
     FROM sumo 
     JOIN banzuke 
-    ON sumo.rikishi1_shikona = banzuke.rikishi 
+    ON sumo.rikishi1_id = banzuke.rikishi1_id
     AND sumo.basho = banzuke.basho""",
     connection,
 )
