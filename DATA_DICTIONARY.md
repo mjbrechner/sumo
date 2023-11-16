@@ -4,7 +4,7 @@ Both the original CSV files as well as the cleaned data use numerous terms relat
 
 The data dictionary for the original CSV files, results.csv and banzuke.csv, can be found here: https://data.world/cervus/sumo-japan/workspace/data-dictionary
 
-In the course of this project, I come up with a new CSV file, rikishi_analysis, for which I have created the following data dictionary:
+In the course of this project, I come up with a new CSV file, rikishi_analysis.csv, for which I have created the following data dictionary:
 
 id: Since wrestlers can re-use and/or change their ring names, an id number is useful as a key identifier of each particular wrestler.
 
