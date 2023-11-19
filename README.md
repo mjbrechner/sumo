@@ -9,6 +9,32 @@ Original data source: Mikhail Zhilkin at https://data.world/cervus/sumo-japan
     The 177,879-line file file bazuke.csv features a line for every wrestler in every tournament during the covered time period. This includes all wrestlers within the Japan Sumo Association at all levels, though my analysis will focus on those who are in the top division (as well as lower-division wrestlers who sometimes are called up to participate in top-division matches).
 
 
+INSTRUCTIONS On RUNNING IN A VIRTUAL ENVIRONMENT
+
+Create a virtual environment:
+
+    python -m venv venv
+
+Activate the virtual environment 
+    
+    Windows Users: venv\Scripts\activate
+    MacIntosh/Linux Users: source venv/bin/activate
+
+    pip install -r requirements.txt
+
+Startup the Jupyter Notebook file
+
+    main.ipynb
+
+When finished, deactivate as follows:
+
+    deactivate
+
+
+
+*which file to open, currently main2.ipynb, but also some in sql_join.ipynb*
+
+
 This project will include the following features:
 
 (1) Read TWO data files (JSON, CSV, Excel, etc.):
