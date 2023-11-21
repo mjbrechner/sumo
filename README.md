@@ -1,12 +1,12 @@
-Sumo Project
+git statusSumo Project
 
 This is a project to analysis sumo data from the Makuuchi division, which is the top division of professional sumo in the Japan Sumo Association. This division typically entails 42 rikishi (wrestlers) engaged in six 15-day tournaments per year. This analysis covers every top-division match between January 1983 and July 2023.
 
 Original data source: Mikhail Zhilkin at https://data.world/cervus/sumo-japan
 
-    The 227,773-line file results.csv goes line by line for every wrestler's individual top-division match results in every top-division match during the covered time period.
+The 227,773-line file results.csv goes line by line for every wrestler's individual top-division match results in every top-division match during the covered time period.
 
-    The 177,879-line file file bazuke.csv features a line for every wrestler in every tournament during the covered time period. This includes all wrestlers within the Japan Sumo Association at all levels, though my analysis will focus on those who are in the top division (as well as lower-division wrestlers who sometimes are called up to participate in top-division matches).
+The 177,879-line file file bazuke.csv features a line for every wrestler in every tournament during the covered time period. This includes all wrestlers within the Japan Sumo Association at all levels, though my analysis will focus on those who are in the top division (as well as lower-division wrestlers who sometimes are called up to participate in top-division matches).
 
 
 INSTRUCTIONS On RUNNING IN A VIRTUAL ENVIRONMENT
@@ -24,7 +24,8 @@ Activate the virtual environment
 
 Startup the Jupyter Notebook file
 
-    main.ipynb
+    main.ipynb (This file shows my step-by-step progress to clean up the first obtained data file, results.csv)
+    sql_join_editing20231120.ipynb (This file shows my step-by-steo progress to clean up the second obtained file, banzuke.csv)git status
 
 When finished, deactivate as follows:
 
