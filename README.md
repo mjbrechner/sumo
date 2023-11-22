@@ -29,16 +29,12 @@ Activate the virtual environment
 
 Startup the Jupyter Notebook file
 
-    main.ipynb (This file shows my step-by-step progress to clean up the first obtained data file, results.csv)
-    banzuke_cleaning.ipynb (This file shows my step-by-step progress to clean up the second obtained file, banzuke.csv, then joining it to the first cleaned file)
+    all_in_one_notebooks.ipynb
 
 When finished, deactivate as follows:
 
     deactivate
 
-*which file to open, currently main2.ipynb, but also some in sql_join.ipynb*
-
-*add markdown to banzuke_cleaning*
 
 This project will include the following features:
 
