@@ -1,4 +1,4 @@
-git statusSumo Project
+Sumo Project
 
 This is a project to analysis sumo data from the Makuuchi division, which is the top division of professional sumo in the Japan Sumo Association. This division typically entails 42 rikishi (wrestlers) engaged in six 15-day tournaments per year. This analysis covers every top-division match between January 1983 and July 2023.
 
@@ -14,7 +14,7 @@ Once I have made these two new dataframes, I will combine them into the file ana
 
 
 
-INSTRUCTIONS On RUNNING IN A VIRTUAL ENVIRONMENT
+INSTRUCTIONS ON RUNNING IN A VIRTUAL ENVIRONMENT
 
 Create a virtual environment:
 
@@ -38,6 +38,7 @@ When finished, deactivate as follows:
 
 *which file to open, currently main2.ipynb, but also some in sql_join.ipynb*
 
+*add markdown to banzuke_cleaning*
 
 This project will include the following features:
 
