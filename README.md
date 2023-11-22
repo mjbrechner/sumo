@@ -8,6 +8,11 @@ The 227,773-line file results.csv goes line by line for every wrestler's individ
 
 The 177,879-line file file bazuke.csv features a line for every wrestler in every tournament during the covered time period. This includes all wrestlers within the Japan Sumo Association at all levels, though my analysis will focus on those who are in the top division (as well as lower-division wrestlers who sometimes are called up to participate in top-division matches).
 
+In this project, I will take each one of these .csv files, using each one to compile new dataframes. Whereas results.csv features rows for every single tournament match and banzuke.csv features rows for every wrestler in every tournament, my new dataframes will have one row for every wrestler, featuring statistics compiled from the original files. For instances, while results.csv features information on the winner of each individual match, my cleaned up file will show a wrestler's total wins over the entire 40-year time frame.
+
+Once I have made these two new dataframes, I will combine them into the file analysis.csv and follow with further analysis and visualizations.
+
+
 
 INSTRUCTIONS On RUNNING IN A VIRTUAL ENVIRONMENT
 
