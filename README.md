@@ -52,7 +52,7 @@ When finished, deactivate as follows:
 
 * (3) Make 3 matplotlib visualizations to display your data:
     
-    * *I have included visualizations for **Top Kimarite Frequency**, **Success by Highest Rank Achieved**, and **Most Successful Heya**.
+    * I have included visualizations for **Top Kimarite Frequency**, **Success by Highest Rank Achieved**, and **Most Successful Heya**.
 
 * (4a) Utilize a virtual environment and include instructions in your README on how the user should set one up:
     
