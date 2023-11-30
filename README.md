@@ -14,7 +14,7 @@ Once I have made these two new dataframes, I will combine them into the file *an
 
 # Running this Project
 
-This project was created using Python 3.11.4 and can be executed by cloning this repository to your local machine and running the Jupyter Notebook file *sumo_analysis.ipynb*.
+This project was created with [Python 3.11.4](https://www.python.org/) and uses [Jupyter Notebook](https://jupyter.org/), both of which require installation of not already on the user's computer. This project can be executed by cloning this repository to your local machine and running the Jupyter Notebook file *sumo_analysis.ipynb*.
 
 From the command line, you can run the following code to clone the repository. Further instructions can be found on [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
 
