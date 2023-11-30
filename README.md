@@ -12,9 +12,9 @@ In this project, I will take each one of these *.csv* files, using each one to c
 
 Once I have made these two new dataframes, I will combine them into the file *analysis.csv* and follow with further analysis and visualizations.
 
+# Running this Project
 
-
-# Instructions on running in a virtual environment
+This project was created using Python 3.11.4 and can be executed by cloning this repository to your local machine and running the Jupyter Notebook file *sumo_analysis.ipynb*. If you would like to set up a virtual environment, you can navigate to the cloned repository folder in the terminal and conduct the following steps:
 
 Create a virtual environment:
 
