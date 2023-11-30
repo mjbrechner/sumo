@@ -2,7 +2,7 @@
 
 This is a project to analysis sumo data from the Makuuchi division, which is the top division of professional sumo in the Japan Sumo Association. This division typically entails 42 rikishi (wrestlers) engaged in six 15-day tournaments per year. This analysis covers every top-division match between January 1983 and July 2023.
 
-Original data source: **Mikhail Zhilkin** at https://data.world/cervus/sumo-japan
+Original data source: **Mikhail Zhilkin** at [https://data.world/cervus/sumo-japan](https://data.world/cervus/sumo-japan).
 
 The 227,773-line file *results.csv* goes line by line for every wrestler's individual top-division match results in every top-division match during the covered time period.
 
@@ -14,24 +14,35 @@ Once I have made these two new dataframes, I will combine them into the file *an
 
 # Running this Project
 
-This project was created using Python 3.11.4 and can be executed by cloning this repository to your local machine and running the Jupyter Notebook file *sumo_analysis.ipynb*. If you would like to set up a virtual environment, you can navigate to the cloned repository folder in the terminal and conduct the following steps:
+This project was created using Python 3.11.4 and can be executed by cloning this repository to your local machine and running the Jupyter Notebook file *sumo_analysis.ipynb*.
 
-Create a virtual environment:
+From the command line, you can run the following code to clone the repository. Further instructions can be found on [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
+
+    git clone https://github.com/mjbrechner/sumo.git
+
+To set up a virtual environment, you can navigate to the cloned repository folder in the terminal and conduct the following steps:
+
+Create a virtual environment
 
     python -m venv venv
 
-Activate the virtual environment 
+Activate the virtual environment (**Windows users only!**)
     
-    Windows Users: venv\Scripts\activate
-    MacIntosh/Linux Users: source venv/bin/activate
+    venv\Scripts\activate
+
+Activate the virtual environment (**MacIntosh/Linux users only!**)
+
+    source venv/bin/activate
+
+Install the requirements to run the program
 
     pip install -r requirements.txt
 
-Startup the Jupyter Notebook file
+Start up Jupyter Notebook, by typing "jupyter notebook" into the command line, then open the following file
 
     sumo_analysis.ipynb
 
-When finished, deactivate as follows:
+When finished, deactivate by typing the following into the command line
 
     deactivate
 
