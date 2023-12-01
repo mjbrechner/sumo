@@ -2,7 +2,7 @@
 
 Both the original CSV files as well as the cleaned data use numerous terms relating to the sport of sumo.
 
-The data dictionary for the original CSV files, *results.csv* and *banzuke.csv*, can be found here: https://data.world/cervus/sumo-japan/workspace/data-dictionary
+The data dictionary for the original CSV files created by Mikhail Zhilkin, *results.csv* and *banzuke.csv*, can be found here: https://data.world/cervus/sumo-japan/workspace/data-dictionary
 
 In the course of this project, I come up with a new CSV file, *analysis.csv*, for which I have created the following data dictionary:
 
@@ -18,7 +18,7 @@ In the course of this project, I come up with a new CSV file, *analysis.csv*, fo
 
 **pct**: A wrestler's winning percentage.
 
-**top_rank**: Wrestlers are given a rank based on how well they performed in the previous tournament. The highest rank in the highest division is Yozokuna, which takes special consideration to achieve. The next-highest rank, Ozeki, also takes more than a mere winning record. The next ranks, Sekiwake and then Komusubi are also included in the top-level san'yaku section. Below this, the top-division is filled out with the Maegashira rankings, with Maegashira1 being the highest, then Maegashira2 and going down from there. Lower division matches are not covered by this project, but sometimes lower-division wrestlers end up filling out the roster for a tournament day and so occassionally appear in the data. The second-tier division is Juryo (with wrestlers ranked from Juryo1, Juryo2, etc.), and the third-tier is Makushita (Makishita1, Makishita2, etc.).
+**top_rank**: Wrestlers are given a rank based on how well they performed in the previous tournament. The highest rank in the highest division is *Yozokuna*, which takes special consideration to achieve. The next-highest rank, *Ozeki*, also takes more than a mere winning record. The next ranks, *Sekiwake* and then *Komusubi* are also included in the top-level *san'yaku* section. Below this, the top-division is filled out with the *Maegashira* rankings, with *Maegashira-1* being the highest, then *Maegashira-2* and going down from there. Lower division matches are not covered by this project, but sometimes lower-division wrestlers end up filling out the roster for a tournament day and so occassionally appear in the data. The second-tier division is *Juryo* (with wrestlers ranked from *Juryo-1*, *Juryo-2*, etc.), and the third-tier is *Makushita* (*Makishita-1*, *Makishita-2*, etc.). Then comes the divisions of *Sandanme*, *Jonidan*, and *Jonokuchi*.
 
 **favored_kimarite**: Kimarite refers to the technique used by a wrestler to win a match, a finishing move. The favored kimarite refers to the kimarite used most frequently by a wrestler in the matches examined in this project.
 
